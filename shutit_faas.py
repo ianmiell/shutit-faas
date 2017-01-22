@@ -156,7 +156,7 @@ To get a picture of what has been set up.''',add_final_message=True,level=loggin
 
 
 	def get_config(self, shutit):
-		shutit.get_config(self.module_id,'vagrant_image',default='ubuntu/xenial64')
+		shutit.get_config(self.module_id,'vagrant_image',default='centos/7')
 		shutit.get_config(self.module_id,'vagrant_provider',default='virtualbox')
 		shutit.get_config(self.module_id,'gui',default='false')
 		shutit.get_config(self.module_id,'memory',default='1024')
